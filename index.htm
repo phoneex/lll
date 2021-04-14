@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="ex.png" />
+    <title>ex</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #000;
+        }
+        .info {
+            width: 70%;
+            height: 100px;
+            margin: 0px 0px 0px 15%;
+            background-color: #222;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            box-shadow: 5px 5px 5px #333;
+        }
+        #txt {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 3em;
+        }
+        #loding {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+        #init {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            text-align: center;
+            padding-top: 250px;
+            font-size: 5em;
+            text-shadow: 5px 5px 5px #333;
+        }
+        #talk {
+            width: 100px;
+            border-radius: 50px;
+            position: fixed;
+            top: 30px;
+            left: 15px;
+            border: 3px solid #333;
+            height: 100px;
+            box-shadow: 5px 5px 5px #333;
+        }
+    </style>
+</head>
+<script>
+function ops() {
+    var pass = prompt("enter your pass: ")
+    if (pass=="nopass"){
+        alert("This is password very good")
+    } else {
+        alert("error :)")
+    }
+}
+</script>
+<body>
+        <div class="info">
+            <p onclick="ops()" id="txt">lock</p>
+        </div>
+        <p id="init">hello my friend !!</p>
+    <a href="menu.html"><img id="loding" src="loding.gif" alt="loding"></a>
+    <a href="raha.htm"><img id="talk" src="PsT2y.gif" alt="talk"></a>
+</body>
+</html>
+<!-- montazer man bash !! -->
