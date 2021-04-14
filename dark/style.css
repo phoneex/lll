@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+@keyframes lolo {
+    0%   {background-color: yellow;}
+    25%  {background-color: red;}
+    50%  {background-color: green;}
+    100% {background-color: blue;}
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #111;
+    animation-name: lolo;
+    animation-duration: 20s;
+}
+.head {
+    width: 70%;
+    height: 100px;
+    margin: 0px 0px 0px 15%;
+    background-color: #222;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 5px 5px 5px #333;
+    animation-name: example;
+    animation-duration: 20s;
+}
+#txt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3em;
+}
+#me {
+    width: 150px;
+    border-radius: 30px;
+}
+.menu {
+    position: fixed;
+    background: #222;
+    bottom: 0px;
+    margin: 30px 0px 30px 100px;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px #333;
+    animation-name: example;
+    animation-duration: 20s;
+}
+#telegram {
+    width: 150px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+#shop {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+#setting {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+.web-app {
+    position: relative;
+    margin: 70px 70px 20px 90px;
+    border-radius: 40px;
+}
+#instagramdo {
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 5px;
+}
+#shad {
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 55px;
+}
+#kasbokar {
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 55px;
+}
+#aparat {
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#digipay {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 5px; 
+}
+#hamrahaval {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#irancell {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#rightel {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#google {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 5px;  
+}
+#youtube {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px;  
+}
+#gmail {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#bloger {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#X4khona {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 5px; 
+}
+#snapp {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#rubika {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#instagram {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#divar {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 5px; 
+}
+#radiojavan {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#play {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#w3 {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#camra {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 5px; 
+}
+#photoshop {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#football {
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#digikala { 
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-left: 55px; 
+} 
+#gem {
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 5px; 
+}
+#terminal {
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
+#shire {
+    width: 90px;
+    border-radius: 100px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    box-shadow: 5px 5px 5px #333;
+}
+.neex {
+    animation-name: example;
+    animation-duration: 20s;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    background-color: #222;
+    padding: 30% 0px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #333;
+}
+#row {
+    font-size: 60px;
+    color: #fff;
+    display: inline;
+    margin: 10px;
+}
+.nexx {
+    position: fixed;
+    top: 30%;
+    left: 0;
+    background-color: #222;
+    padding: 30% 0px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #333;
+    animation-name: example;
+    animation-duration: 20s;
+}
+#rowrin {
+    font-size: 60px;
+    color: #fff;
+    display: inline;
+    margin: 10px;
+}
+#yougram {
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 55px; 
+}
